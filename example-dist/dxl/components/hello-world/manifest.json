@@ -1,0 +1,33 @@
+{
+  "$schema": "http://localhost:3000/schemas/v1.json#",
+  "version": "1.0.0",
+  "name": "helloworld1",
+  "displayName": "Hello World test component",
+  "namespace": "test-components",
+  "icon": {
+    "id": "list_alt",
+    "color": {
+      "type": "hex",
+      "value": "#2D2D2D"
+      }
+  },
+  "description": "A demonstration component for Hello World tutorial.",
+  "mainFunction": "main",
+  "type": "edge",
+  "functions": [
+    {
+      "name": "main",
+      "entry": "main.mjs",
+      "input": {
+        "type": "object",
+        "properties": {
+          "entryfield": {
+            "type": "string"
+          }
+        },
+        "required": ["entryfield"]
+      },
+      "output": { "responseType": "html" }
+    }
+  ]
+}
