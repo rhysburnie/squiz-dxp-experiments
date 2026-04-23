@@ -1,0 +1,11 @@
+---
+const who = Astro.props.who ?? 'world';
+---
+
+<p class="hello">hello {who}</p>
+
+<style>
+.hello {
+  color: blue;
+}
+</style>

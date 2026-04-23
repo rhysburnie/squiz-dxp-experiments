@@ -1,0 +1,13 @@
+{
+  "name": "@squiz-astro-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "peerDependencies": {
+    "astro": "^6.0.0"
+  },
+  "devDependencies": {
+    "astro": "^6.1.9"
+  }
+}
